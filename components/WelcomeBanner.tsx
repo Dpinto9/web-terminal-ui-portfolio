@@ -3,9 +3,9 @@ export default function WelcomeBanner() {
     <div className="font-mono text-sm mb-4 select-none">
       {/* Castle/Structure */}
       <pre className="text-green-500 leading-tight text-xs">
-        {`                                   ]=I==II==I=[
+        {`                                  ]=I==II==I=[
                                    \\\\__||__//                 ]=I==II==I=[
-              ]=I==II==I=[          |.. *|                    \\\\__||__//
+              ]=I==II==I=[          |.. *  |                   \\\\__||__//
                \\\\__||__//           |. /\\ #|                    |-_ []#|
                 | []   |            |  ## *|                    |      |
                 |    ..|            | . , #|                  ]=I==II==I=[
