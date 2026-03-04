@@ -1,0 +1,59 @@
+export default function WelcomeBanner() {
+  return (
+    <div className="font-mono text-sm mb-4 select-none">
+      {/* Castle/Structure */}
+      <pre className="text-green-500 leading-tight text-xs">
+        {`                                   ]=I==II==I=[
+                                   \\\\__||__//                 ]=I==II==I=[
+              ]=I==II==I=[          |.. *|                    \\\\__||__//
+               \\\\__||__//           |. /\\ #|                    |-_ []#|
+                | []   |            |  ## *|                    |      |
+                |    ..|            | . , #|                  ]=I==II==I=[
+___    ____  ___ |   .. |         __ |..__.*| __                \\\\__||__//
+] I---I  I--I [ |..    |        |  ||_|  |_|| |                 |    _*|
+]_____________[ | .. []|         \\--\\-|-|--/-//                 |   _ #|
+ \\_\\| |_| |/_/  |_   _ | _   _   _|      ' *|                   |    *|
+  |  .     |'-'-' '-' '-' '-' '-' | []     #|-|--|-_-_-_-_ _ _ _|_'   #|
+  |     '  |=-=-=-=-=-=-=-=-=-=-=-|      []*|-----________        ]   *|
+  |      []|      _-_-_-_-_  '    |-       #|      ,    '        ['  _#|
+  | '      |   [] | | | | |  []   |  []    *|                .   |'  I*|
+  |      - |    \` | | | | | \`     | ;  '   #|     .  |           |    #|
+ /_'_-_-___-\\__,__|_|_|_|_|_______|    \`  , *|     _______+___,__,-/._.._.\\
+               _,--'    __,-'      /,_,_v_Y_,_v\\\\-'`}
+      </pre>
+
+      {/* Title: WEB TERM */}
+      <pre className="text-green-400 leading-tight">
+        {`
+ ██╗    ██╗███████╗██████╗     ████████╗███████╗██████╗ ███╗   ███╗
+ ██║    ██║██╔════╝██╔══██╗    ╚══██╔══╝██╔════╝██╔══██╗████╗ ████║
+ ██║ █╗ ██║█████╗  ██████╔╝       ██║   █████╗  ██████╔╝██╔████╔██║
+ ██║███╗██║██╔══╝  ██╔══██╗       ██║   ██╔══╝  ██╔══██╗██║╚██╔╝██║
+ ╚███╔███╔╝███████╗██████╔╝       ██║   ███████╗██║  ██║██║ ╚═╝ ██║
+  ╚══╝╚══╝ ╚══════╝╚═════╝        ╚═╝   ╚══════╝╚═╝  ╚═╝╚═╝     ╚═╝`}
+      </pre>
+
+      {/* Divider + info */}
+      <div className="mt-3 text-gray-600">{"─".repeat(64)}</div>
+      <div className="mt-2 flex flex-col gap-1">
+        <span className="text-gray-400">
+          version <span className="text-green-400">1.0.0</span>
+          {"  "}|{"  "}
+          built with <span className="text-blue-400">Next.js</span> +{" "}
+          <span className="text-blue-400">TypeScript</span>
+          {"  "}|{"  "}
+          author <span className="text-yellow-400">@dpinto9</span>
+        </span>
+        <span className="text-gray-600 text-xs">
+          Type <span className="text-green-400">'help'</span> to see available
+          commands.{"  "}
+          Type <span className="text-green-400">'ls'</span> to explore the
+          filesystem.{"  "}
+          Type <span className="text-green-400">'sudo access'</span> if you
+          dare.
+        </span>
+      </div>
+      <div className="mt-2 text-gray-600">{"─".repeat(64)}</div>
+    </div>
+  );
+}
