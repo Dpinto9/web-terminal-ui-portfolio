@@ -4,6 +4,10 @@ An interactive browser-based terminal built as a portfolio. Simulates a real she
 
 ## Screenshots
 
+<div align="center">
+  <img  alt="image" src="https://github.com/user-attachments/assets/c5311fde-ca5f-4ee0-b821-468d3c22dc9d"  width="48%"/>
+  <img  alt="image" src="https://github.com/user-attachments/assets/db534b70-3e54-4afe-8f0b-6b243db21454"  width="48%"/>
+</div>
 ---
 
 ## Features
@@ -38,7 +42,7 @@ An interactive browser-based terminal built as a portfolio. Simulates a real she
 | `sudo logoff`  | End the root session                      |
 | `link <name>`  | Open a link in a new tab                  |
 | `theme <name>` | Change the color theme                    |
-| `spin`         | Show ASCII art animations                 |
+| `animation`         | Show ASCII art animations                 |
 
 ---
 
@@ -87,7 +91,7 @@ theme purple
 │   │   ├── history.ts
 │   │   ├── link.ts
 │   │   ├── ls.ts
-│   │   ├── spin.tsx
+│   │   ├── animation.tsx
 │   │   ├── sudo.tsx
 │   │   ├── theme.ts
 │   │   └── tree.ts
